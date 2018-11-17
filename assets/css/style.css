@@ -38,8 +38,8 @@ h2 {
 ul {
 	list-style-type: none;
 	color: #777777;
-	position: fixed;
-	left: 760px;
+	position: relative;
+	left: -340px;
 	top: 20px;
 	clear: right;
 	float: right;
@@ -71,7 +71,7 @@ li {
 	background-color: #ffffff;
 	width: 960px;
 	padding: 20px;
-	margin-top: 20px;
+	margin-top: 8%;
 	margin-bottom: 25%;
 	float: left;
 	overflow: auto;
@@ -88,14 +88,14 @@ a {
 p {
 font-family: "Arial", "Helvetica Neue", "Helvetica", sans-serif;
 color: #777777;
-line-height: 20px;
+line-height: 30px;
 }
 
 #portfolio {
 	background-color: #ffffff;
-	width: 969px;
+	width: 960px;
 	padding: 20px;
-	margin-top: 20px;
+	margin-top: 8%;
 	margin-bottom: 25%;
 	float: left;
 	overflow: auto;
@@ -112,6 +112,7 @@ line-height: 20px;
 	position: relative;
 	float: right;
 	clear: right;
+	margin-right: 50%;
 }
 
 
@@ -125,6 +126,7 @@ line-height: 20px;
 	position: relative;
 	float: right;
 	clear: right;
+	margin-right: 50%;
 }
 
 #rock {
@@ -153,6 +155,22 @@ line-height: 20px;
 	margin-bottom: 25%;
 	float: left;
 	overflow: auto;
+	color: #777777
+}
+
+input {
+	width: 100%;
+
+}
+
+button {
+	color: white;
+	font-size: 20px;
+	background: #4aaaa5;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	padding: 10px 20px 10px 20px;
+
+
 }
 
 .footer {
