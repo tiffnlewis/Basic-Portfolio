@@ -3,6 +3,7 @@ body {
 	margin: 0;
 	border: 0;
 	font-family: "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+	
 }
 
 header {
@@ -37,9 +38,9 @@ h2 {
 ul {
 	list-style-type: none;
 	color: #777777;
-	margin: auto;
-	padding: 60px;
-	width: 270px;
+	position: fixed;
+	left: 760px;
+	top: 20px;
 	clear: right;
 	float: right;
 	font-family: "Arial", "Helvetica Neue", "Helvetica", sans-serif;
@@ -49,6 +50,7 @@ ul {
 li {
 	display: inline;
 }
+
 
 .container {
 	margin-left: 100px;	
@@ -61,29 +63,26 @@ li {
 	width: 200px;
 	height: 200px;
 	float: left;
-	margin: 10px 20px 20px 0px;
+	margin: 10px 20px 10px 0px;
+	
 }
 
 #aboutMe {
 	background-color: #ffffff;
-	width: 650px;
+	width: 960px;
 	padding: 20px;
 	margin-top: 20px;
+	margin-bottom: 25%;
 	float: left;
 	overflow: auto;
-}
-
-#connect {
-width: 270px;
-float: right;
-clear: right;
-background-color: #ffffff;
-align-content: center;
 }
 
 a {
 	padding: 20px;
 	align-content: center;
+	color: #666666;
+	text-decoration: none;
+	
 }
 
 p {
@@ -94,9 +93,10 @@ line-height: 20px;
 
 #portfolio {
 	background-color: #ffffff;
-	width: 650px;
+	width: 969px;
 	padding: 20px;
 	margin-top: 20px;
+	margin-bottom: 25%;
 	float: left;
 	overflow: auto;
 }
@@ -133,21 +133,24 @@ line-height: 20px;
 	clear: right;
 }
 .name {
-	padding: 10px;
-	padding-color: #4aaaa5;
-	font-color: #ffffff;
-	font-size: 15px;
+	padding: 10px 20px 10px 20px;
+	width: 160px;
+	margin-top: 70px;
+	background-color: #4aaaa5;
+	text-align: center;
+	color: white;
+	font-size: 20px;
 	font-family: "Georgia", "Times", "Times New Roman", serif;
 	position: absolute;
-	top: 50%;
-	left: 50%;
+	top: 30%;
 }
 
 #form {
 	background-color: #ffffff;
-	width: 650px;
+	width: 960px;
 	padding: 20px;
 	margin-top: 20px;
+	margin-bottom: 25%;
 	float: left;
 	overflow: auto;
 }
